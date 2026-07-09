@@ -1,6 +1,6 @@
 # tongstock-adapter-skill
 
-OpenClaw 技能项目，封装了 TongStock API，提供按照指标筛选股票和单个股票数据查询功能。TongStock 是一个 Go 语言实现的 TDX（通达信）市场数据客户端，其项目地址在https://github.com/tangyanjun2004/tongstock，该项目对原作者的项目进行一些改进，从而更好地支持本SKill.
+OpenClaw 技能项目，封装了 TongStock API，提供按照指标筛选股票和单个股票数据查询功能。TongStock 是一个 Go 语言实现的 TDX（通达信）市场数据客户端，其项目地址在[https://github.com/tangyanjun2004/tongstock](https://github.com/tangyanjun2004/tongstock)，该项目对原作者的项目进行一些改进，从而更好地支持本SKill.
 
 ## 核心功能
 
