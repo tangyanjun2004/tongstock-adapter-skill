@@ -53,6 +53,9 @@ temp/
 # Test results
 test_result/
 
+# Release packages
+release/
+
 # Configuration files with sensitive data
 config.yaml
 indicator.yaml

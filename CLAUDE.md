@@ -2,7 +2,7 @@
 
 ## 项目概述
 
-这是 `a-stock-tdx-adapter` - 一个 OpenClaw 技能项目，封装了 TongStock API，提供按照指标筛选股票和单个股票数据查询功能。TongStock 是一个 Go 语言实现的 TDX（通达信）市场数据客户端，部署在本地 http://localhost:8991。
+这是 `tongstock-adapter-skill` - 一个 OpenClaw 技能项目，封装了 TongStock API，提供按照指标筛选股票和单个股票数据查询功能。TongStock 是一个 Go 语言实现的 TDX（通达信）市场数据客户端，部署在本地 http://localhost:8991。
 
 ## 项目结构
 
@@ -29,15 +29,7 @@ a-stock-tdx/
 ```
 
 ## 开发约束
-## API格式的获取
-- 在编写代码需要知道TongStock API的输入输出格式时，请阅读reference目录下的APIDoc下的json文档来获取不同参数下的response
-- 这个目录下的每一个json的格式都是如下格式
-```json
-  "timestamp": "", //调用时间
-  "endpoint": "",  //接口地址
-  "params": {},  //传递的参数
-  "response": {}  //得到的返回结果
-```
+
 ### 测试文件位置
 所有测试文件必须放在 `scripts/test` 目录中。这包括：
 - 单元测试文件（应遵循 `test_*.py` 命名约定）
@@ -102,6 +94,14 @@ python apidoc_general.py
 - `/api/xdxr` - 除权除息数据
 - `/api/company` - 公司信息（F10）
 
+## API 格式的获取
+在编写代码需要知道TongStock API的输入输出格式时，请阅读reference目录下的APIDoc下的json文档来获取不同参数下的response，这个目录下的每一个json的格式都是如下格式
+```json
+  "timestamp": "", //调用时间
+  "endpoint": "",  //接口地址
+  "params": {},  //传递的参数
+  "response": {}  //得到的返回结果
+```
 ## 核心功能
 
 ### 股票信息查询
