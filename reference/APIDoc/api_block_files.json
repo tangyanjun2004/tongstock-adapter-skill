@@ -1,0 +1,29 @@
+{
+  "timestamp": "2026-07-08T17:34:41.027154",
+  "endpoint": "/api/block/files",
+  "params": {},
+  "response": {
+    "files": [
+      {
+        "file": "block.dat",
+        "name": "综合板块",
+        "desc": "综合分类"
+      },
+      {
+        "file": "block_zs.dat",
+        "name": "指数板块",
+        "desc": "主要指数成分股"
+      },
+      {
+        "file": "block_fg.dat",
+        "name": "行业板块",
+        "desc": "行业分类"
+      },
+      {
+        "file": "block_gn.dat",
+        "name": "概念板块",
+        "desc": "概念主题"
+      }
+    ]
+  }
+}

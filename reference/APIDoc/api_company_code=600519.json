@@ -1,0 +1,105 @@
+{
+  "timestamp": "2026-07-08T17:34:33.531455",
+  "endpoint": "/api/company",
+  "params": {
+    "code": "600519"
+  },
+  "response": [
+    {
+      "Name": "最新提示",
+      "Filename": "600519.txt",
+      "Start": 0,
+      "Length": 19677
+    },
+    {
+      "Name": "公司概况",
+      "Filename": "600519.txt",
+      "Start": 19677,
+      "Length": 10443
+    },
+    {
+      "Name": "财务分析",
+      "Filename": "600519.txt",
+      "Start": 30120,
+      "Length": 43209
+    },
+    {
+      "Name": "股本结构",
+      "Filename": "600519.txt",
+      "Start": 73329,
+      "Length": 6629
+    },
+    {
+      "Name": "股东研究",
+      "Filename": "600519.txt",
+      "Start": 79958,
+      "Length": 54100
+    },
+    {
+      "Name": "机构持股",
+      "Filename": "600519.txt",
+      "Start": 134058,
+      "Length": 37200
+    },
+    {
+      "Name": "分红融资",
+      "Filename": "600519.txt",
+      "Start": 171258,
+      "Length": 9067
+    },
+    {
+      "Name": "高管治理",
+      "Filename": "600519.txt",
+      "Start": 180325,
+      "Length": 17716
+    },
+    {
+      "Name": "资金动向",
+      "Filename": "600519.txt",
+      "Start": 198041,
+      "Length": 9423
+    },
+    {
+      "Name": "资本运作",
+      "Filename": "600519.txt",
+      "Start": 207464,
+      "Length": 64381
+    },
+    {
+      "Name": "热点题材",
+      "Filename": "600519.txt",
+      "Start": 271845,
+      "Length": 42083
+    },
+    {
+      "Name": "公司公告",
+      "Filename": "600519.txt",
+      "Start": 313928,
+      "Length": 37119
+    },
+    {
+      "Name": "公司报道",
+      "Filename": "600519.txt",
+      "Start": 351047,
+      "Length": 17145
+    },
+    {
+      "Name": "经营分析",
+      "Filename": "600519.txt",
+      "Start": 368192,
+      "Length": 21472
+    },
+    {
+      "Name": "行业分析",
+      "Filename": "600519.txt",
+      "Start": 389664,
+      "Length": 14753
+    },
+    {
+      "Name": "研报评级",
+      "Filename": "600519.txt",
+      "Start": 404417,
+      "Length": 95193
+    }
+  ]
+}

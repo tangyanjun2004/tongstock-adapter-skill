@@ -1,0 +1,11 @@
+{
+  "timestamp": "2026-07-08T17:34:41.712374",
+  "endpoint": "/api/count",
+  "params": {
+    "exchange": "sz"
+  },
+  "response": {
+    "count": 23741,
+    "exchange": "sz"
+  }
+}

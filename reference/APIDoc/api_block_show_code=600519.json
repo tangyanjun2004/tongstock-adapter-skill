@@ -1,0 +1,43 @@
+{
+  "timestamp": "2026-07-08T17:34:41.367359",
+  "endpoint": "/api/block/show",
+  "params": {
+    "code": "600519"
+  },
+  "response": {
+    "blocks": [
+      {
+        "name": "中证100",
+        "type": 2,
+        "count": 100
+      },
+      {
+        "name": "中证龙头",
+        "type": 2,
+        "count": 50
+      },
+      {
+        "name": "中证A50",
+        "type": 2,
+        "count": 50
+      },
+      {
+        "name": "沪深300",
+        "type": 2,
+        "count": 300
+      },
+      {
+        "name": "中证A100",
+        "type": 2,
+        "count": 100
+      },
+      {
+        "name": "上证50",
+        "type": 2,
+        "count": 50
+      }
+    ],
+    "code": "600519",
+    "name": "贵州茅台"
+  }
+}

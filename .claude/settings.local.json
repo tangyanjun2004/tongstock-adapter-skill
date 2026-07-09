@@ -1,0 +1,30 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(venv/Scripts/python -m pytest test/test_stock_info.py test/test_stock_screener.py -v)",
+      "Bash(python -m pytest test/test_stock_info.py -v)",
+      "Bash(python -m pytest -v)",
+      "Bash(python -m pytest test/api_test.py -v)",
+      "Bash(python -m pytest test/test_company_content.py -v)",
+      "Bash(python main.py info --help)",
+      "Bash(python main.py company --help)",
+      "Bash(python main.py blocks)",
+      "Bash(python main.py info 600519 -d 5 -w 3 -m 2)",
+      "Bash(python main.py company 600519 -b \"公司概况\" \"财务分析\")",
+      "Bash(python \"d:\\\\WorkSpace\\\\ClaudeCodeProjects\\\\a-stock-tdx\\\\scripts\\\\src\\\\main.py\" company 600519)",
+      "Bash(python \"d:\\\\WorkSpace\\\\ClaudeCodeProjects\\\\a-stock-tdx\\\\scripts\\\\src\\\\main.py\" info 600519)",
+      "Bash(findstr -A 20 \"company_info\")",
+      "Bash(powershell -Command \"\\(python 'd:\\\\WorkSpace\\\\ClaudeCodeProjects\\\\a-stock-tdx\\\\scripts\\\\src\\\\main.py' info 600519\\) -split 'company_info' | Select-Object -Last 1 | Select-Object -First 1\")",
+      "Bash(python test_api_response.py)",
+      "Bash(python test_markdown_output.py)",
+      "Bash(python print_generated_markdown.py)",
+      "Bash(python check_actual_api_response.py)",
+      "Bash(python check_encoding.py)",
+      "Bash(python -c ' *)",
+      "Bash(python print_markdown.py)",
+      "Bash(python check_simple_tables.py)",
+      "Bash(python test_markdown_improvements.py)",
+      "Bash(python debug_table_parsing.py)"
+    ]
+  }
+}

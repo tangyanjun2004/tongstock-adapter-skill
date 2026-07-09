@@ -1,0 +1,14 @@
+{
+  "timestamp": "2026-07-08T17:34:37.945762",
+  "endpoint": "/api/screen",
+  "params": {
+    "codes": "600519",
+    "type": "day",
+    "signal": "death_cross"
+  },
+  "response": {
+    "matched": 0,
+    "results": null,
+    "total": 1
+  }
+}

@@ -51,7 +51,7 @@ tmp/
 temp/
 
 # Test results
-test/result/
+test_result/
 
 # Configuration files with sensitive data
 config.yaml

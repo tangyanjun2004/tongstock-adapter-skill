@@ -1,0 +1,19 @@
+{
+  "timestamp": "2026-07-08T17:34:33.058610",
+  "endpoint": "/api/codes/stats",
+  "params": {
+    "exchange": "bj"
+  },
+  "response": {
+    "stats": [
+      {
+        "exchange": "bj",
+        "name": "北京交易所",
+        "total": 325,
+        "categories": {
+          "REITs": 325
+        }
+      }
+    ]
+  }
+}

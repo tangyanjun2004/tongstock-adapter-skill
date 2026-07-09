@@ -1,0 +1,14 @@
+{
+  "timestamp": "2026-07-08T17:34:39.566781",
+  "endpoint": "/api/screen",
+  "params": {
+    "codes": "600519",
+    "type": "day",
+    "signal": "overbought"
+  },
+  "response": {
+    "matched": 0,
+    "results": null,
+    "total": 1
+  }
+}

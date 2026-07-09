@@ -1,0 +1,7965 @@
+{
+  "timestamp": "2026-07-08T17:34:32.984290",
+  "endpoint": "/api/codes/list",
+  "params": {
+    "exchange": "sh",
+    "category": "etf"
+  },
+  "response": {
+    "category": "etf",
+    "codes": [
+      {
+        "code": "501001",
+        "name": "财通精选",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "501005",
+        "name": "精准医疗",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "501006",
+        "name": "精准医C",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "501007",
+        "name": "互联医疗",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "501008",
+        "name": "互联医C",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "501009",
+        "name": "生物科技",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "501010",
+        "name": "生物科C",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "501011",
+        "name": "中药基金",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "501012",
+        "name": "中药C",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "501015",
+        "name": "财通升级",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "501016",
+        "name": "券商基金",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "501017",
+        "name": "国泰融丰",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "501018",
+        "name": "南方原油",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "501019",
+        "name": "军工基金",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "501021",
+        "name": "香港中小",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "501022",
+        "name": "银华鑫盛",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "501023",
+        "name": "港中小企",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "501025",
+        "name": "香港银行",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "501026",
+        "name": "财通福享",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "501028",
+        "name": "财通福瑞",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "501029",
+        "name": "红利基金",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "501030",
+        "name": "环境治理",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "501031",
+        "name": "环境C",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "501032",
+        "name": "财通福盛",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "501036",
+        "name": "中证500A",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "501037",
+        "name": "中证500C",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "501038",
+        "name": "银华明择",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "501043",
+        "name": "沪深300A",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "501045",
+        "name": "沪深300C",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "501046",
+        "name": "财通福鑫",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "501047",
+        "name": "全指证券",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "501048",
+        "name": "证券C",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "501050",
+        "name": "50AHLOF",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "501051",
+        "name": "圆信汇利",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "501053",
+        "name": "东证目优",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "501057",
+        "name": "新能源车",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "501058",
+        "name": "新能车C",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "501059",
+        "name": "国企红利",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "501060",
+        "name": "金选300A",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "501061",
+        "name": "金选300C",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "501062",
+        "name": "南方瑞合",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "501064",
+        "name": "国泰价值",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "501065",
+        "name": "经典成长",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "501070",
+        "name": "广发睿阳",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "501071",
+        "name": "泓德丰泽",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "501073",
+        "name": "华安智联",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "501075",
+        "name": "科创主题",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "501076",
+        "name": "创新动力",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "501077",
+        "name": "创新企业",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "501078",
+        "name": "科创配置",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "501079",
+        "name": "科创大成",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "501080",
+        "name": "科创中金",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "501081",
+        "name": "科创中欧",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "501082",
+        "name": "科创投资",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "501083",
+        "name": "科创银华",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "501085",
+        "name": "科创财通",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "501087",
+        "name": "交银瑞丰",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "501088",
+        "name": "嘉实瑞虹",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "501089",
+        "name": "消费增强",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "501090",
+        "name": "消费基金",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "501091",
+        "name": "嘉实欣荣",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "501092",
+        "name": "交银瑞思",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "501093",
+        "name": "华夏翔阳",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "501095",
+        "name": "BOCI科创",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "501096",
+        "name": "科创国联",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "501097",
+        "name": "科创国寿",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "501098",
+        "name": "科创建信",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "501099",
+        "name": "新兴平安",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "501186",
+        "name": "华夏兴融",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "501188",
+        "name": "添富精选",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "501189",
+        "name": "嘉实优选",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "501200",
+        "name": "科创加银",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "501201",
+        "name": "科创红土",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "501202",
+        "name": "创新华泰",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "501203",
+        "name": "易基未来",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "501205",
+        "name": "鹏华创新",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "501206",
+        "name": "添富创新",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "501207",
+        "name": "华夏创新",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "501208",
+        "name": "中欧创新",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "501209",
+        "name": "富久LOF",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "501210",
+        "name": "智选FOF",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "501211",
+        "name": "优享FOF",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "501212",
+        "name": "优选配置",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "501213",
+        "name": "中欧汇选",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "501215",
+        "name": "积极FOF",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "501216",
+        "name": "行业精选",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "501217",
+        "name": "行业FOF",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "501218",
+        "name": "睿智FOF",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "501219",
+        "name": "智胜先锋",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "501220",
+        "name": "行业轮动",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "501222",
+        "name": "如意招享",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "501225",
+        "name": "全球芯片",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "501227",
+        "name": "红利优选",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "501300",
+        "name": "美元债",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "501301",
+        "name": "香港大盘",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "501302",
+        "name": "恒生联接",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "501303",
+        "name": "恒生中型",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "501305",
+        "name": "港股高息",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "501306",
+        "name": "港股高C",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "501307",
+        "name": "红利LOF",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "501310",
+        "name": "价值基金",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "501311",
+        "name": "新经济HK",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "501312",
+        "name": "海外科技",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "502000",
+        "name": "500增强",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "502003",
+        "name": "军工LOF",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "502006",
+        "name": "国企改革",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "502010",
+        "name": "证券LOF",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "502013",
+        "name": "一带一路",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "502023",
+        "name": "钢铁LOF",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "502048",
+        "name": "50LOF",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "502053",
+        "name": "券商LOF",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "502056",
+        "name": "医疗基金",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "506000",
+        "name": "科创板基",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "506001",
+        "name": "万家科创",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "506002",
+        "name": "易基科创",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "506003",
+        "name": "富国科创",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "506005",
+        "name": "科创板BS",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "506006",
+        "name": "添富科创",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "506008",
+        "name": "科创长城",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "508000",
+        "name": "张江REIT",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "508001",
+        "name": "浙江杭徽",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "508002",
+        "name": "百联消费",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "508003",
+        "name": "中金联东",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "508005",
+        "name": "首创奥莱",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "508006",
+        "name": "首创水务",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "508007",
+        "name": "山东高速",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "508008",
+        "name": "铁建REIT",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "508009",
+        "name": "安徽交控",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "508010",
+        "name": "重庆两江",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "508011",
+        "name": "物美消费",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "508012",
+        "name": "招商科创",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "508015",
+        "name": "明阳REIT",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "508016",
+        "name": "华电REIT",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "508017",
+        "name": "金茂消费",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "508018",
+        "name": "中交REIT",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "508019",
+        "name": "湖北科投",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "508020",
+        "name": "隧道REIT",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "508021",
+        "name": "临港REIT",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "508022",
+        "name": "津开产园",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "508026",
+        "name": "电建清源",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "508027",
+        "name": "东吴苏园",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "508028",
+        "name": "国家电投",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "508029",
+        "name": "沈软REIT",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "508031",
+        "name": "城投宽庭",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "508033",
+        "name": "深高REIT",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "508036",
+        "name": "甬交REIT",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "508039",
+        "name": "首农REIT",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "508048",
+        "name": "外高REIT",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "508050",
+        "name": "中核清能",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "508055",
+        "name": "地产租住",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "508056",
+        "name": "普洛斯",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "508058",
+        "name": "厦门安居",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "508060",
+        "name": "万国REIT",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "508066",
+        "name": "苏交REIT",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "508068",
+        "name": "京保REIT",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "508069",
+        "name": "南京交通",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "508077",
+        "name": "华润有巢",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "508078",
+        "name": "易商仓储",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "508080",
+        "name": "北京亦庄",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "508082",
+        "name": "唯品奥莱",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "508084",
+        "name": "九州通R",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "508085",
+        "name": "恒泰租住",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "508086",
+        "name": "河北高速",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "508087",
+        "name": "济南能源",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "508088",
+        "name": "东久REIT",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "508089",
+        "name": "特变REIT",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "508090",
+        "name": "外运REIT",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "508091",
+        "name": "凯德消费",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "508092",
+        "name": "金隅智造",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "508093",
+        "name": "北投REIT",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "508096",
+        "name": "京能国际",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "508097",
+        "name": "建邺REIT",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "508098",
+        "name": "京东仓储",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "508099",
+        "name": "中关村",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "508600",
+        "name": "地产商业",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "508601",
+        "name": "首农商业",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "508602",
+        "name": "砂之船",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "508603",
+        "name": "唯品商业",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "510010",
+        "name": "治理ETF",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "510020",
+        "name": "超大ETF",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "510030",
+        "name": "价值ETF",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "510040",
+        "name": "上证180E",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "510050",
+        "name": "50ETF",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "510060",
+        "name": "央企ETF",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "510090",
+        "name": "ESG建信",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "510100",
+        "name": "SZ50ETF",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "510130",
+        "name": "中盘ETF",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "510140",
+        "name": "上证指",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "510150",
+        "name": "消费ETF",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "510160",
+        "name": "产业升级",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "510170",
+        "name": "商品ETF",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "510180",
+        "name": "180ETF",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "510190",
+        "name": "上证50基",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "510200",
+        "name": "上证券商",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "510210",
+        "name": "综指ETF",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "510230",
+        "name": "金融ETF",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "510270",
+        "name": "国企ETF",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "510290",
+        "name": "380ETF",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "510300",
+        "name": "300ETF",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "510310",
+        "name": "HS300ETF",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "510320",
+        "name": "300中金",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "510330",
+        "name": "华夏300",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "510350",
+        "name": "工银300",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "510360",
+        "name": "广发300",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "510370",
+        "name": "兴业300",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "510380",
+        "name": "国寿300",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "510390",
+        "name": "平安300",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "510410",
+        "name": "资源ETF",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "510500",
+        "name": "500ETF",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "510510",
+        "name": "广发500",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "510530",
+        "name": "工银500",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "510550",
+        "name": "方正500",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "510560",
+        "name": "国寿500",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "510570",
+        "name": "兴业500",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "510580",
+        "name": "ZZ500ETF",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "510590",
+        "name": "平安500",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "510600",
+        "name": "沪50ETF",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "510630",
+        "name": "消费30",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "510650",
+        "name": "金融行业",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "510660",
+        "name": "医药行业",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "510670",
+        "name": "180指",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "510680",
+        "name": "万家50",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "510710",
+        "name": "上50ETF",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "510720",
+        "name": "红利国泰",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "510760",
+        "name": "上证ETF",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "510770",
+        "name": "G60创新",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "510800",
+        "name": "上证50",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "510810",
+        "name": "上海国企",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "510850",
+        "name": "工银上50",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "510880",
+        "name": "红利ETF",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "510900",
+        "name": "恒生中国",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "510910",
+        "name": "上证指CS",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "510950",
+        "name": "上证广发",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "510980",
+        "name": "上证综合",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "510990",
+        "name": "ESG180",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "511010",
+        "name": "国债ETF",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "511020",
+        "name": "活跃国债",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "511030",
+        "name": "公司债",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "511060",
+        "name": "5年地债",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "511070",
+        "name": "沪公司债",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "511090",
+        "name": "30年国债",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "511100",
+        "name": "基准国债",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "511110",
+        "name": "公司债易",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "511120",
+        "name": "科创债基",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "511130",
+        "name": "国债30年",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "511150",
+        "name": "科债永赢",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "511160",
+        "name": "国债东财",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "511180",
+        "name": "上证转债",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "511190",
+        "name": "信用债",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "511200",
+        "name": "信用债基",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "511220",
+        "name": "城投ETF",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "511260",
+        "name": "十年国债",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "511270",
+        "name": "10年地债",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "511360",
+        "name": "短融ETF",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "511380",
+        "name": "转债ETF",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "511520",
+        "name": "政金债",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "511580",
+        "name": "国债政金",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "511600",
+        "name": "货币ETF",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "511620",
+        "name": "货币基金",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "511650",
+        "name": "华夏快线",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "511660",
+        "name": "建信添益",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "511670",
+        "name": "华泰天金",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "511690",
+        "name": "交易货币",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "511700",
+        "name": "场内货币",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "511770",
+        "name": "金鹰增益",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "511800",
+        "name": "易货币",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "511810",
+        "name": "理财金H",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "511820",
+        "name": "鹏华添利",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "511830",
+        "name": "华泰货币",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "511850",
+        "name": "财富宝E",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "511860",
+        "name": "博时货币",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "511880",
+        "name": "银华日利",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "511900",
+        "name": "富国货币",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "511910",
+        "name": "融通货币",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "511920",
+        "name": "广发货币",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "511930",
+        "name": "国联日盈",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "511950",
+        "name": "广发添利",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "511960",
+        "name": "嘉实快线",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "511970",
+        "name": "国寿货币",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "511980",
+        "name": "现金添富",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "511990",
+        "name": "华宝添益",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "512000",
+        "name": "券商ETF",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "512010",
+        "name": "医药ETF",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "512020",
+        "name": "A500",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "512030",
+        "name": "A50增",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "512040",
+        "name": "国信价值",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "512050",
+        "name": "A500E",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "512060",
+        "name": "A100指基",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "512070",
+        "name": "证券保险",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "512080",
+        "name": "A500中金",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "512090",
+        "name": "MSCI易基",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "512100",
+        "name": "1000ETF",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "512120",
+        "name": "医药50",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "512130",
+        "name": "现金全指",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "512140",
+        "name": "电力事业",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "512150",
+        "name": "A50ETF",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "512160",
+        "name": "MSCI基金",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "512170",
+        "name": "医疗ETF",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "512180",
+        "name": "建信MSCI",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "512190",
+        "name": "之江凤凰",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "512200",
+        "name": "地产ETF",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "512220",
+        "name": "TMTETF",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "512240",
+        "name": "A50龙头",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "512250",
+        "name": "A50指数E",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "512260",
+        "name": "500低波",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "512290",
+        "name": "生物医药",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "512330",
+        "name": "信息ETF",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "512360",
+        "name": "MSCI国际",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "512370",
+        "name": "A500增指",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "512380",
+        "name": "MSCI中国",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "512390",
+        "name": "MSCI低波",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "512400",
+        "name": "有色ETF",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "512410",
+        "name": "银行广发",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "512423",
+        "name": "机械华安",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "512424",
+        "name": "认购款",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "512430",
+        "name": "家电家居",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "512450",
+        "name": "广发养殖",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "512460",
+        "name": "电池主题",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "512480",
+        "name": "半导体",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "512500",
+        "name": "中证500",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "512510",
+        "name": "ETF500",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "512520",
+        "name": "MSCIETF",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "512530",
+        "name": "300红利",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "512550",
+        "name": "A50基金",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "512560",
+        "name": "中证军工",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "512570",
+        "name": "中证证券",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "512580",
+        "name": "环保ETF",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "512600",
+        "name": "必选消费",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "512620",
+        "name": "农业TH",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "512630",
+        "name": "卫星基金",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "512640",
+        "name": "金融地产",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "512650",
+        "name": "长三角",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "512660",
+        "name": "军工ETF",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "512670",
+        "name": "国防ETF",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "512680",
+        "name": "军工基金",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "512690",
+        "name": "酒ETF",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "512700",
+        "name": "银行基金",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "512710",
+        "name": "军工龙头",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "512720",
+        "name": "计算机",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "512730",
+        "name": "银行FUND",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "512750",
+        "name": "基本面50",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "512760",
+        "name": "芯片ETF",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "512770",
+        "name": "战略新兴",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "512800",
+        "name": "银行ETF",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "512810",
+        "name": "国防军工",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "512820",
+        "name": "银行股基",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "512870",
+        "name": "杭州湾区",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "512880",
+        "name": "证券ETF",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "512890",
+        "name": "红利低波",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "512900",
+        "name": "证券基金",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "512910",
+        "name": "100ETF",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "512930",
+        "name": "AIETF",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "512940",
+        "name": "有色矿业",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "512950",
+        "name": "央企改革",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "512960",
+        "name": "央调ETF",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "512970",
+        "name": "湾区ETF",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "512980",
+        "name": "传媒ETF",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "512990",
+        "name": "MSCIA股",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "513000",
+        "name": "225ETF",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "513010",
+        "name": "港股科技",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "513020",
+        "name": "科技HK",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "513030",
+        "name": "德国ETF",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "513040",
+        "name": "HK互联网",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "513050",
+        "name": "中概互联",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "513060",
+        "name": "恒生医疗",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "513070",
+        "name": "HK消费50",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "513080",
+        "name": "法国ETF",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "513090",
+        "name": "香港证券",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "513100",
+        "name": "纳指ETF",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "513110",
+        "name": "纳指100",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "513120",
+        "name": "HK创新药",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "513130",
+        "name": "恒生科技",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "513140",
+        "name": "港股金融",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "513150",
+        "name": "港科技50",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "513160",
+        "name": "科技30",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "513170",
+        "name": "恒生央企",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "513180",
+        "name": "恒指科技",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "513190",
+        "name": "H股金融",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "513200",
+        "name": "港股医药",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "513210",
+        "name": "恒生E",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "513220",
+        "name": "互联网30",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "513230",
+        "name": "H股消费",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "513240",
+        "name": "港信息",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "513260",
+        "name": "恒科技",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "513280",
+        "name": "恒生生物",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "513290",
+        "name": "纳指生物",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "513300",
+        "name": "纳斯达克",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "513310",
+        "name": "中韩芯片",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "513320",
+        "name": "HK新经济",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "513330",
+        "name": "恒生互联",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "513350",
+        "name": "油气ETF",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "513360",
+        "name": "教育ETF",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "513380",
+        "name": "科技恒生",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "513390",
+        "name": "纳指基金",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "513400",
+        "name": "道琼斯",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "513500",
+        "name": "标普500",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "513520",
+        "name": "日经ETF",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "513530",
+        "name": "港股红利",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "513550",
+        "name": "港股通50",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "513560",
+        "name": "香港科技",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "513580",
+        "name": "HS科技",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "513590",
+        "name": "香港消费",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "513600",
+        "name": "恒指ETF",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "513620",
+        "name": "港医疗指",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "513630",
+        "name": "香港红利",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "513650",
+        "name": "标普ETF",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "513660",
+        "name": "恒生通",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "513690",
+        "name": "恒生股息",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "513700",
+        "name": "香港医药",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "513720",
+        "name": "香港互联",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "513730",
+        "name": "东南亚",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "513750",
+        "name": "港股非银",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "513770",
+        "name": "港股互联",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "513780",
+        "name": "港股新药",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "513800",
+        "name": "东证ETF",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "513810",
+        "name": "港股国企",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "513820",
+        "name": "港股分红",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "513830",
+        "name": "红利港股",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "513850",
+        "name": "美国50",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "513860",
+        "name": "HKC科技",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "513870",
+        "name": "纳指指数",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "513880",
+        "name": "日经225",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "513890",
+        "name": "HK科技",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "513900",
+        "name": "港股100",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "513910",
+        "name": "红利央企",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "513920",
+        "name": "央企40",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "513930",
+        "name": "香港生科",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "513950",
+        "name": "恒生红利",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "513970",
+        "name": "恒生消费",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "513980",
+        "name": "科技港股",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "513990",
+        "name": "港股通综",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "515000",
+        "name": "科技ETF",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "515010",
+        "name": "华夏证券",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "515020",
+        "name": "银行指数",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "515030",
+        "name": "新汽车",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "515043",
+        "name": "工业金属",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "515044",
+        "name": "认购款",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "515050",
+        "name": "5GETF",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "515060",
+        "name": "华夏地产",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "515070",
+        "name": "AI智能",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "515080",
+        "name": "中证红利",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "515090",
+        "name": "可持续",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "515100",
+        "name": "红利100",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "515110",
+        "name": "国企方达",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "515120",
+        "name": "创新药",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "515130",
+        "name": "HS300E",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "515150",
+        "name": "国企富国",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "515160",
+        "name": "MSCI招商",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "515170",
+        "name": "食品饮料",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "515180",
+        "name": "100红利",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "515190",
+        "name": "BOCI500",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "515200",
+        "name": "创新100",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "515210",
+        "name": "钢铁ETF",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "515220",
+        "name": "煤炭ETF",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "515230",
+        "name": "软件ETF",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "515250",
+        "name": "智能汽车",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "515260",
+        "name": "电子ETF",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "515290",
+        "name": "银行",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "515300",
+        "name": "红利300",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "515310",
+        "name": "添富300",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "515320",
+        "name": "电子50",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "515330",
+        "name": "天弘300",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "515350",
+        "name": "民生300",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "515360",
+        "name": "方正300",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "515370",
+        "name": "中证光伏",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "515380",
+        "name": "泰康300",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "515390",
+        "name": "HS300",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "515400",
+        "name": "大数据",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "515450",
+        "name": "红利50",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "515460",
+        "name": "质量红利",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "515480",
+        "name": "红利一百",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "515530",
+        "name": "泰康500",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "515550",
+        "name": "国联500",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "515560",
+        "name": "证券E",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "515580",
+        "name": "中证科技",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "515590",
+        "name": "500ETFEW",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "515600",
+        "name": "央企创新",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "515630",
+        "name": "保险证券",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "515640",
+        "name": "家电指数",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "515650",
+        "name": "消费50",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "515660",
+        "name": "沪深300E",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "515680",
+        "name": "创新央企",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "515700",
+        "name": "新能车",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "515710",
+        "name": "食品ETF",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "515720",
+        "name": "金科富国",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "515730",
+        "name": "家居家电",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "515750",
+        "name": "科技50",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "515760",
+        "name": "浙江国资",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "515770",
+        "name": "MSCIAETF",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "515790",
+        "name": "光伏ETF",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "515800",
+        "name": "800ETF",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "515810",
+        "name": "ZZ800ETF",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "515843",
+        "name": "食品南方",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "515844",
+        "name": "认购款",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "515850",
+        "name": "证券龙头",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "515860",
+        "name": "科技100",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "515880",
+        "name": "通信ETF",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "515890",
+        "name": "红利博时",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "515900",
+        "name": "央创ETF",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "515910",
+        "name": "质量ETF",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "515920",
+        "name": "智能消费",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "515950",
+        "name": "医药龙头",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "515960",
+        "name": "医药100",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "515970",
+        "name": "华夏机械",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "515980",
+        "name": "人工智能",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "515990",
+        "name": "添富国企",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "516000",
+        "name": "数据ETF",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "516010",
+        "name": "游戏ETF",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "516020",
+        "name": "化工ETF",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "516050",
+        "name": "科技龙头",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "516060",
+        "name": "新药ETF",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "516070",
+        "name": "碳中和50",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "516080",
+        "name": "创新医药",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "516090",
+        "name": "新能源E",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "516100",
+        "name": "科技金融",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "516110",
+        "name": "汽车ETF",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "516120",
+        "name": "化工50",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "516130",
+        "name": "消费龙头",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "516150",
+        "name": "稀土基金",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "516160",
+        "name": "新能源",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "516180",
+        "name": "光伏产业",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "516190",
+        "name": "文娱ETF",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "516200",
+        "name": "证券行业",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "516210",
+        "name": "银行股",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "516220",
+        "name": "化工龙头",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "516230",
+        "name": "光伏招商",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "516250",
+        "name": "富国机械",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "516260",
+        "name": "物联网50",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "516270",
+        "name": "新能源50",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "516290",
+        "name": "光伏基金",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "516300",
+        "name": "中证1000",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "516310",
+        "name": "银行指基",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "516320",
+        "name": "装备ETF",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "516330",
+        "name": "物联网",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "516350",
+        "name": "芯片50",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "516360",
+        "name": "新材料",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "516370",
+        "name": "全指电力",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "516380",
+        "name": "智能电车",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "516390",
+        "name": "电动车",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "516460",
+        "name": "现金流E",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "516500",
+        "name": "生物ETF",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "516510",
+        "name": "云计算",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "516520",
+        "name": "智能驾驶",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "516530",
+        "name": "物流快递",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "516550",
+        "name": "农业ETF",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "516560",
+        "name": "养老ETF",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "516570",
+        "name": "石化ETF",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "516580",
+        "name": "新能源BS",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "516590",
+        "name": "电动汽车",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "516600",
+        "name": "消服ETF",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "516610",
+        "name": "医服ETF",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "516620",
+        "name": "影视ETF",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "516630",
+        "name": "云计算50",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "516640",
+        "name": "芯片龙头",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "516650",
+        "name": "有色50",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "516660",
+        "name": "新能汽车",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "516670",
+        "name": "畜牧养殖",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "516700",
+        "name": "数据产业",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "516710",
+        "name": "新材料50",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "516720",
+        "name": "ESGETF",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "516730",
+        "name": "证券公司",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "516750",
+        "name": "建材ETF",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "516760",
+        "name": "养殖ETF",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "516770",
+        "name": "游戏动漫",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "516780",
+        "name": "稀土ETF",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "516790",
+        "name": "保健ETF",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "516800",
+        "name": "智能制造",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "516810",
+        "name": "农业",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "516820",
+        "name": "医疗创新",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "516830",
+        "name": "300ESG",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "516840",
+        "name": "汽车基金",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "516850",
+        "name": "新能源80",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "516860",
+        "name": "金融科技",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "516880",
+        "name": "光伏50",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "516890",
+        "name": "新材ETF",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "516900",
+        "name": "食品50",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "516910",
+        "name": "物流ETF",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "516920",
+        "name": "芯片基金",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "516930",
+        "name": "生科ETF",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "516950",
+        "name": "基建ETF",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "516960",
+        "name": "机械ETF",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "516970",
+        "name": "基建50",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "516980",
+        "name": "证券先锋",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "517000",
+        "name": "沪港深",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "517010",
+        "name": "HGS500E",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "517030",
+        "name": "HGS300",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "517050",
+        "name": "互联网50",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "517080",
+        "name": "HGS500",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "517090",
+        "name": "共赢ETF",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "517100",
+        "name": "AH500ETF",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "517110",
+        "name": "创新药HK",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "517120",
+        "name": "创新药50",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "517130",
+        "name": "云计算JS",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "517160",
+        "name": "长江ETF",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "517170",
+        "name": "沪港深E",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "517180",
+        "name": "中国国企",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "517200",
+        "name": "互联网",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "517300",
+        "name": "AH300ETF",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "517330",
+        "name": "长江保护",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "517350",
+        "name": "龙头科技",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "517360",
+        "name": "AH科技",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "517380",
+        "name": "创新药AH",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "517390",
+        "name": "云计算AH",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "517400",
+        "name": "黄金股票",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "517520",
+        "name": "黄金股",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "517550",
+        "name": "消费主题",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "517660",
+        "name": "物联网AH",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "517770",
+        "name": "游戏传媒",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "517800",
+        "name": "AI50",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "517850",
+        "name": "张江ETF",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "517880",
+        "name": "品牌消费",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "517900",
+        "name": "银行优选",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "517950",
+        "name": "交银科技",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "517990",
+        "name": "医药基金",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "518600",
+        "name": "上海金",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "518660",
+        "name": "工银黄金",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "518680",
+        "name": "金ETF",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "518800",
+        "name": "黄金基金",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "518850",
+        "name": "黄金9999",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "518860",
+        "name": "上海金E",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "518880",
+        "name": "黄金ETF",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "518890",
+        "name": "中银黄金",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "519001",
+        "name": "银华优选",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "519002",
+        "name": "安信消费",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "519003",
+        "name": "海富收益",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "519005",
+        "name": "海富股票",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "519007",
+        "name": "海富回报",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "519008",
+        "name": "添富优势",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "519011",
+        "name": "海富精选",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "519013",
+        "name": "海富优势",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "519015",
+        "name": "海富贰号",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "519017",
+        "name": "大成成长",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "519018",
+        "name": "添富均衡",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "519019",
+        "name": "大成景阳",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "519020",
+        "name": "国泰金泰",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "519021",
+        "name": "金鼎价值",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "519023",
+        "name": "海富债券",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "519025",
+        "name": "海富领先",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "519026",
+        "name": "海富小盘",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "519028",
+        "name": "华夏稳增",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "519029",
+        "name": "华夏稳增",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "519030",
+        "name": "海富稳固",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "519033",
+        "name": "海富国策",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "519034",
+        "name": "海富500",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "519035",
+        "name": "富国天博",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "519039",
+        "name": "长盛同德",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "519050",
+        "name": "海富安颐",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "519056",
+        "name": "海富内需",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "519060",
+        "name": "海富纯C",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "519061",
+        "name": "海富纯A",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "519062",
+        "name": "海富对冲",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "519066",
+        "name": "添富蓝筹",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "519068",
+        "name": "添富焦点",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "519069",
+        "name": "添富价值",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "519078",
+        "name": "添富增收",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "519087",
+        "name": "新华分红",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "519089",
+        "name": "新华成长",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "519093",
+        "name": "新华钻石",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "519095",
+        "name": "新华行业",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "519097",
+        "name": "新华市值",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "519100",
+        "name": "长盛A100",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "519110",
+        "name": "价值A",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "519111",
+        "name": "浦银收益",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "519112",
+        "name": "收益债C",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "519113",
+        "name": "浦银生活",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "519115",
+        "name": "浦银红利",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "519116",
+        "name": "浦银300",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "519120",
+        "name": "新兴产业",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "519125",
+        "name": "消费A",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "519126",
+        "name": "新经济",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "519127",
+        "name": "盛世A",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "519130",
+        "name": "海富新内",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "519133",
+        "name": "海富改革",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "519137",
+        "name": "海富瑞福",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "519138",
+        "name": "海富瑞祥",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "519150",
+        "name": "新华消费",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "519152",
+        "name": "新华纯A",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "519153",
+        "name": "新华纯C",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "519156",
+        "name": "新华配置",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "519158",
+        "name": "新华趋势",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "519160",
+        "name": "新华惠A",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "519161",
+        "name": "新华惠C",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "519162",
+        "name": "新华增A",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "519163",
+        "name": "新华增C",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "519170",
+        "name": "浦银增长",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "519171",
+        "name": "浦银医疗",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "519172",
+        "name": "睿智A",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "519173",
+        "name": "睿智C",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "519175",
+        "name": "浦银崛起",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "519180",
+        "name": "万家 180",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "519181",
+        "name": "万家和谐",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "519183",
+        "name": "万家引擎",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "519185",
+        "name": "万家精选",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "519186",
+        "name": "万家稳增",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "519188",
+        "name": "万家恒A",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "519189",
+        "name": "万家恒C",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "519190",
+        "name": "万家双利",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "519191",
+        "name": "万家新利",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "519193",
+        "name": "万家成长",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "519195",
+        "name": "万家品质",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "519196",
+        "name": "万家蓝筹",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "519197",
+        "name": "万家颐达",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "519198",
+        "name": "万家颐和",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "519199",
+        "name": "万家家享",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "519206",
+        "name": "万家荣A",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "519207",
+        "name": "万家荣C",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "519300",
+        "name": "大成300A",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "519505",
+        "name": "海富货A",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "519506",
+        "name": "海富货B",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "519507",
+        "name": "万家货B",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "519508",
+        "name": "万家货A",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "519509",
+        "name": "浦银货A",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "519510",
+        "name": "浦银货B",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "519511",
+        "name": "万家薪A",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "519512",
+        "name": "万家薪B",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "519518",
+        "name": "添富货币",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "519519",
+        "name": "友邦增利",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "519566",
+        "name": "日日盈A",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "519567",
+        "name": "日日盈B",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "519598",
+        "name": "利息B",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "519599",
+        "name": "利息A",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "519606",
+        "name": "国泰金鑫",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "519613",
+        "name": "银河尚A",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "519614",
+        "name": "银河尚C",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "519616",
+        "name": "银河信A",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "519617",
+        "name": "银河信C",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "519622",
+        "name": "银河君怡",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "519642",
+        "name": "银河智造",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "519644",
+        "name": "银河智联",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "519651",
+        "name": "银河转型",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "519655",
+        "name": "银河服务",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "519656",
+        "name": "银河灵A",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "519657",
+        "name": "银河灵C",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "519660",
+        "name": "银河增A",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "519661",
+        "name": "银河增C",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "519664",
+        "name": "美丽A",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "519665",
+        "name": "美丽C",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "519666",
+        "name": "银河银信",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "519668",
+        "name": "银河成长",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "519669",
+        "name": "银河领先",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "519670",
+        "name": "银河行业",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "519671",
+        "name": "300价值",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "519672",
+        "name": "银河蓝筹",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "519673",
+        "name": "银河康乐",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "519674",
+        "name": "银河创新",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "519675",
+        "name": "银河泰利",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "519676",
+        "name": "银河强化",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "519677",
+        "name": "定投宝",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "519678",
+        "name": "银河消费",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "519679",
+        "name": "银河主题",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "519680",
+        "name": "交银增利",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "519683",
+        "name": "交银双利",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "519688",
+        "name": "交银精选",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "519690",
+        "name": "交银稳健",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "519692",
+        "name": "交银成长",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "519698",
+        "name": "交银先锋",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "519700",
+        "name": "交银主题",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "519702",
+        "name": "交银趋势",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "519704",
+        "name": "交银制造",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "519706",
+        "name": "交银价值",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "519712",
+        "name": "交银核心",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "519714",
+        "name": "交银消费",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "519718",
+        "name": "交银纯债",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "519723",
+        "name": "交银双轮",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "519727",
+        "name": "交银30",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "519733",
+        "name": "交银强债",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "519800",
+        "name": "保证金A",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "519801",
+        "name": "保证金B",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "519858",
+        "name": "广发宝A",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "519859",
+        "name": "广发宝B",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "519878",
+        "name": "国保A",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "519879",
+        "name": "国保B",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "519888",
+        "name": "添富快线",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "519889",
+        "name": "添富快B",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "519898",
+        "name": "现金宝A",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "519899",
+        "name": "现金宝B",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "519908",
+        "name": "基金兴华",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "519909",
+        "name": "安顺配置",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "519915",
+        "name": "富国消费",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "519918",
+        "name": "基金兴和",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "519929",
+        "name": "信息量化",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "519933",
+        "name": "长信利发",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "519935",
+        "name": "长信创新",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "519937",
+        "name": "CXXRA",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "519940",
+        "name": "富全C",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "519941",
+        "name": "富全A",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "519942",
+        "name": "CXLLZC",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "519943",
+        "name": "CXLLZA",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "519947",
+        "name": "CXLBA",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "519949",
+        "name": "CXLXA",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "519951",
+        "name": "CXLTA",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "519956",
+        "name": "睿进C",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "519957",
+        "name": "睿进A",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "519959",
+        "name": "长信多利",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "519965",
+        "name": "CXLHDCLA",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "519967",
+        "name": "长信利富",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "519971",
+        "name": "长信GGHL",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "519972",
+        "name": "CX纯债C",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "519973",
+        "name": "CX纯债A",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "519975",
+        "name": "CXLHZXA",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "519976",
+        "name": "CX转债C",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "519977",
+        "name": "CX转债A",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "519979",
+        "name": "CXNXA",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "519983",
+        "name": "长信LHA",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "519985",
+        "name": "CXCZYHA",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "519989",
+        "name": "长信LFC",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "519991",
+        "name": "CXSLA",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "519993",
+        "name": "长信增利",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "519995",
+        "name": "长信金利",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "519997",
+        "name": "长信银利",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "520500",
+        "name": "恒生新药",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "520510",
+        "name": "港股医疗",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "520520",
+        "name": "HK消费",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "520530",
+        "name": "港科ETF",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "520550",
+        "name": "红利恒生",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "520560",
+        "name": "香港30",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "520570",
+        "name": "科技恒指",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "520580",
+        "name": "新兴亚洲",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "520590",
+        "name": "恒科",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "520600",
+        "name": "汽车港股",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "520610",
+        "name": "港红利指",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "520620",
+        "name": "港股消费",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "520630",
+        "name": "互联港股",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "520650",
+        "name": "互联网HK",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "520660",
+        "name": "港红利CS",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "520670",
+        "name": "港科基金",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "520680",
+        "name": "港股通车",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "520690",
+        "name": "恒生港药",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "520700",
+        "name": "创新药WJ",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "520710",
+        "name": "信息港股",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "520720",
+        "name": "香港汽车",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "520730",
+        "name": "汽车WJ",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "520743",
+        "name": "互联香港",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "520744",
+        "name": "认购款",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "520760",
+        "name": "港股生物",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "520770",
+        "name": "港股恒指",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "520780",
+        "name": "港股车50",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "520790",
+        "name": "港互联网",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "520810",
+        "name": "港高股息",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "520820",
+        "name": "恒指通",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "520830",
+        "name": "沙特ETF",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "520840",
+        "name": "港科技",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "520850",
+        "name": "港医疗",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "520860",
+        "name": "港股通科",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "520870",
+        "name": "巴西ETF",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "520880",
+        "name": "港创新药",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "520890",
+        "name": "港红利",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "520900",
+        "name": "红利香港",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "520910",
+        "name": "HK互联",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "520920",
+        "name": "恒生科TH",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "520930",
+        "name": "恒生生科",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "520940",
+        "name": "恒指基金",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "520950",
+        "name": "港股50",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "520960",
+        "name": "恒指港通",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "520970",
+        "name": "港股通药",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "520980",
+        "name": "港科技30",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "520990",
+        "name": "国新红利",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "526000",
+        "name": "港股信息",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "526010",
+        "name": "香港医疗",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "526030",
+        "name": "港信息基",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "526050",
+        "name": "香港信息",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "526070",
+        "name": "恒生博时",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "530000",
+        "name": "50ETF基",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "530050",
+        "name": "SH50ETF",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "530060",
+        "name": "上证综E",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "530080",
+        "name": "180指基",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "530100",
+        "name": "上证580",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "530180",
+        "name": "上证180",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "530280",
+        "name": "180ETF指",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "530300",
+        "name": "180指数",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "530380",
+        "name": "上证380",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "530530",
+        "name": "580ETF",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "530580",
+        "name": "180基金",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "530680",
+        "name": "180E",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "530800",
+        "name": "上180ETF",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "530880",
+        "name": "上证红利",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "551000",
+        "name": "科创债",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "551030",
+        "name": "科创债券",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "551060",
+        "name": "科创债沪",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "551300",
+        "name": "科创债摩",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "551500",
+        "name": "科创债易",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "551510",
+        "name": "科债AAA",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "551520",
+        "name": "科创债汇",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "551550",
+        "name": "科创AAA",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "551560",
+        "name": "科创债兴",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "551580",
+        "name": "科创债TK",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "551800",
+        "name": "国泰科债",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "551900",
+        "name": "科创债指",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "560000",
+        "name": "智慧电车",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "560010",
+        "name": "1000基金",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "560020",
+        "name": "红利添富",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "560030",
+        "name": "800价值",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "560050",
+        "name": "MSCIA50",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "560060",
+        "name": "碳中和基",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "560070",
+        "name": "央企分红",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "560080",
+        "name": "中药ETF",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "560090",
+        "name": "证券指数",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "560100",
+        "name": "增强ETF",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "560110",
+        "name": "ZZ1000",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "560120",
+        "name": "500现金",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "560130",
+        "name": "食品基金",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "560150",
+        "name": "红利TK",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "560160",
+        "name": "食品E",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "560170",
+        "name": "央企科技",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "560180",
+        "name": "ESG300",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "560190",
+        "name": "公用事业",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "560210",
+        "name": "景顺农牧",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "560220",
+        "name": "2000基金",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "560230",
+        "name": "光伏富国",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "560250",
+        "name": "红利质量",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "560260",
+        "name": "医疗50",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "560270",
+        "name": "电力指数",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "560280",
+        "name": "工程机械",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "560290",
+        "name": "景顺有色",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "560300",
+        "name": "电信50",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "560310",
+        "name": "光伏博时",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "560320",
+        "name": "食品富国",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "560330",
+        "name": "300价值E",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "560350",
+        "name": "A50指数",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "560360",
+        "name": "软件指数",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "560370",
+        "name": "全指红利",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "560380",
+        "name": "A100",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "560390",
+        "name": "电网E",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "560400",
+        "name": "证券华泰",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "560410",
+        "name": "电池鹏华",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "560420",
+        "name": "食品Q",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "560450",
+        "name": "电力TH",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "560460",
+        "name": "电力平安",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "560470",
+        "name": "有色E",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "560480",
+        "name": "中证电力",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "560490",
+        "name": "华泰有色",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "560500",
+        "name": "500质量",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "560510",
+        "name": "中证A500",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "560520",
+        "name": "红利大成",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "560530",
+        "name": "A500ETF",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "560550",
+        "name": "碳中和",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "560560",
+        "name": "碳中和TK",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "560570",
+        "name": "A500低波",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "560580",
+        "name": "电力指基",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "560590",
+        "name": "1000鹏华",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "560610",
+        "name": "A500指数",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "560620",
+        "name": "公用WJ",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "560630",
+        "name": "机器人WJ",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "560650",
+        "name": "核心50",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "560660",
+        "name": "云50ETF",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "560670",
+        "name": "中证银行",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "560680",
+        "name": "龙头消费",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "560690",
+        "name": "电信主题",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "560700",
+        "name": "央红利50",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "560710",
+        "name": "船舶ETF",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "560720",
+        "name": "工银红利",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "560750",
+        "name": "A500申万",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "560770",
+        "name": "机器人ZS",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "560780",
+        "name": "半导设备",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "560790",
+        "name": "软件服务",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "560800",
+        "name": "数字ETF",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "560810",
+        "name": "央企ESG",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "560820",
+        "name": "A50新华",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "560830",
+        "name": "电指数",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "560850",
+        "name": "信创50",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "560860",
+        "name": "工业有色",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "560870",
+        "name": "中银有色",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "560880",
+        "name": "家电基金",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "560900",
+        "name": "创新药企",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "560910",
+        "name": "中证电池",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "560920",
+        "name": "招商机械",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "560930",
+        "name": "电力E",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "560950",
+        "name": "500增",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "560970",
+        "name": "有色金属",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "560980",
+        "name": "光伏龙头",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "560990",
+        "name": "科技先锋",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "561000",
+        "name": "300指增",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "561010",
+        "name": "软件开发",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "561023",
+        "name": "食品招商",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "561024",
+        "name": "认购款",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "561030",
+        "name": "机械华泰",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "561050",
+        "name": "稀金属E",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "561060",
+        "name": "红利国企",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "561080",
+        "name": "现金自由",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "561090",
+        "name": "A500增",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "561100",
+        "name": "电子龙头",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "561120",
+        "name": "家电ETF",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "561130",
+        "name": "国货ETF",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "561160",
+        "name": "锂电池",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "561170",
+        "name": "绿电50",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "561180",
+        "name": "A100ETF",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "561190",
+        "name": "双碳ETF",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "561200",
+        "name": "A100基金",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "561220",
+        "name": "国企数字",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "561230",
+        "name": "A50",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "561253",
+        "name": "稀金属PH",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "561254",
+        "name": "认购款",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "561260",
+        "name": "能源ETF",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "561280",
+        "name": "增强1000",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "561300",
+        "name": "300增ETF",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "561310",
+        "name": "消电ETF",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "561320",
+        "name": "交运ETF",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "561330",
+        "name": "矿业ETF",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "561350",
+        "name": "国泰500",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "561360",
+        "name": "石油ETF",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "561370",
+        "name": "2000ETF",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "561380",
+        "name": "电网ETF",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "561393",
+        "name": "稀金属PA",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "561394",
+        "name": "认购款",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "561403",
+        "name": "鑫元养殖",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "561404",
+        "name": "认购款",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "561413",
+        "name": "光伏工银",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "561414",
+        "name": "认购款",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "561420",
+        "name": "300现金",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "561430",
+        "name": "全指质量",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "561460",
+        "name": "AITH",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "561493",
+        "name": "红利财通",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "561494",
+        "name": "认购款",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "561500",
+        "name": "漂亮50",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "561510",
+        "name": "中医药",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "561550",
+        "name": "500指增",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "561560",
+        "name": "电力ETF",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "561570",
+        "name": "油气基金",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "561580",
+        "name": "央企红利",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "561590",
+        "name": "1000增强",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "561600",
+        "name": "消费电子",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "561623",
+        "name": "华泰化工",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "561624",
+        "name": "认购款",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "561633",
+        "name": "华泰质量",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "561634",
+        "name": "认购款",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "561660",
+        "name": "通航基金",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "561680",
+        "name": "A500红低",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "561700",
+        "name": "电力基金",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "561750",
+        "name": "A50博时",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "561760",
+        "name": "油气博时",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "561770",
+        "name": "指基A100",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "561780",
+        "name": "1000指增",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "561790",
+        "name": "现代能源",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "561800",
+        "name": "稀金属",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "561813",
+        "name": "华泰医疗",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "561814",
+        "name": "认购款",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "561870",
+        "name": "现金流指",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "561880",
+        "name": "A100指数",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "561900",
+        "name": "沪深ESG",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "561910",
+        "name": "电池ETF",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "561920",
+        "name": "疫苗龙头",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "561930",
+        "name": "招商300",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "561950",
+        "name": "500增强A",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "561960",
+        "name": "央企回报",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "561980",
+        "name": "芯片设备",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "561990",
+        "name": "300增强",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "562000",
+        "name": "中证A100",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "562010",
+        "name": "绿色能源",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "562030",
+        "name": "信创基金",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "562050",
+        "name": "药ETF",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "562060",
+        "name": "标普红利",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "562070",
+        "name": "300ETF增",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "562080",
+        "name": "自由现金",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "562300",
+        "name": "低碳ETF",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "562310",
+        "name": "300成长",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "562320",
+        "name": "300价值A",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "562330",
+        "name": "500价值",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "562340",
+        "name": "500成长",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "562350",
+        "name": "电力",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "562360",
+        "name": "机器人YH",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "562380",
+        "name": "科技引领",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "562390",
+        "name": "中药",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "562500",
+        "name": "机器人",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "562510",
+        "name": "旅游ETF",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "562520",
+        "name": "1000成长",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "562530",
+        "name": "1000价值",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "562550",
+        "name": "绿电ETF",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "562560",
+        "name": "信息技术",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "562570",
+        "name": "信创ETF",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "562580",
+        "name": "可选消费",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "562590",
+        "name": "半导材料",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "562600",
+        "name": "医疗器械",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "562660",
+        "name": "ZZ2000",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "562700",
+        "name": "汽车零件",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "562800",
+        "name": "稀有金属",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "562810",
+        "name": "上证增强",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "562820",
+        "name": "集成电路",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "562850",
+        "name": "央企能源",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "562860",
+        "name": "疫苗ETF",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "562870",
+        "name": "证券全指",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "562880",
+        "name": "电池基金",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "562890",
+        "name": "A50中证",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "562900",
+        "name": "现代农业",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "562910",
+        "name": "高端制造",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "562920",
+        "name": "信息安全",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "562930",
+        "name": "软件30",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "562950",
+        "name": "消电50",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "562960",
+        "name": "绿色电力",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "562970",
+        "name": "光伏E",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "562990",
+        "name": "碳中和E",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "563000",
+        "name": "中国A50",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "563010",
+        "name": "电信ETF",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "563020",
+        "name": "低波红利",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "563030",
+        "name": "增强500",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "563050",
+        "name": "科技央企",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "563060",
+        "name": "央企50",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "563080",
+        "name": "中证A50E",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "563090",
+        "name": "上50增强",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "563150",
+        "name": "油气资源",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "563180",
+        "name": "高股息",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "563200",
+        "name": "2000指数",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "563210",
+        "name": "专精特新",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "563220",
+        "name": "A500富国",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "563230",
+        "name": "卫星ETF",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "563280",
+        "name": "A50增强",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "563300",
+        "name": "中证2000",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "563320",
+        "name": "通用航空",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "563330",
+        "name": "A股ETF",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "563350",
+        "name": "中证A50",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "563360",
+        "name": "A500基金",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "563380",
+        "name": "航空航天",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "563390",
+        "name": "现金基金",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "563500",
+        "name": "A500华宝",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "563510",
+        "name": "A500红利",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "563520",
+        "name": "300永赢",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "563530",
+        "name": "卫星E",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "563550",
+        "name": "增强A500",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "563560",
+        "name": "科技成长",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "563570",
+        "name": "金融科",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "563580",
+        "name": "现金800",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "563590",
+        "name": "红利A500",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "563600",
+        "name": "A500增强",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "563620",
+        "name": "现金流全",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "563630",
+        "name": "A500指增",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "563650",
+        "name": "A500中证",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "563660",
+        "name": "A500银河",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "563670",
+        "name": "金科基金",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "563680",
+        "name": "现金流TF",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "563690",
+        "name": "红利永赢",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "563700",
+        "name": "红利价值",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "563750",
+        "name": "500添富",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "563760",
+        "name": "中银现金",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "563770",
+        "name": "全指现金",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "563780",
+        "name": "现金指数",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "563790",
+        "name": "卫星产业",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "563800",
+        "name": "A500龙头",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "563830",
+        "name": "现金流基",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "563850",
+        "name": "食品广发",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "563860",
+        "name": "A500海富",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "563870",
+        "name": "航空通用",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "563880",
+        "name": "A500添富",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "563890",
+        "name": "红利国有",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "563900",
+        "name": "现金流",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "563930",
+        "name": "上指增强",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "563960",
+        "name": "300质量",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "563980",
+        "name": "800红利",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "563990",
+        "name": "800现金",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "588000",
+        "name": "科创50",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "588010",
+        "name": "科创材料",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "588020",
+        "name": "科创50E",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "588030",
+        "name": "科创指基",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "588040",
+        "name": "科创板指",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "588050",
+        "name": "科创ETF",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "588060",
+        "name": "上证科创",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "588070",
+        "name": "科创万家",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "588080",
+        "name": "科创板50",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "588090",
+        "name": "科创板",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "588100",
+        "name": "科创信息",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "588110",
+        "name": "科创成长",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "588120",
+        "name": "科100ETF",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "588130",
+        "name": "科创药",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "588140",
+        "name": "科200GF",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "588150",
+        "name": "科创龙头",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "588160",
+        "name": "科创新材",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "588170",
+        "name": "科创半导",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "588180",
+        "name": "科创50基",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "588190",
+        "name": "科创100",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "588200",
+        "name": "科创芯片",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "588210",
+        "name": "科创100E",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "588220",
+        "name": "科创100F",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "588230",
+        "name": "科创200",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "588240",
+        "name": "科200",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "588250",
+        "name": "KC医药",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "588260",
+        "name": "科创技术",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "588270",
+        "name": "科创200F",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "588280",
+        "name": "科创五零",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "588290",
+        "name": "芯片科创",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "588300",
+        "name": "双创ETF",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "588310",
+        "name": "双创基金",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "588320",
+        "name": "双创增强",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "588330",
+        "name": "双创龙头",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "588350",
+        "name": "双创",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "588360",
+        "name": "创创ETF",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "588370",
+        "name": "科创策略",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "588380",
+        "name": "创50ETF",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "588390",
+        "name": "科创创业",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "588400",
+        "name": "双创50",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "588410",
+        "name": "双创AI",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "588420",
+        "name": "AI双创",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "588430",
+        "name": "科创创AI",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "588450",
+        "name": "科创50增",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "588460",
+        "name": "科创增强",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "588470",
+        "name": "双创智能",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "588480",
+        "name": "AI50双创",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "588500",
+        "name": "科创100Z",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "588510",
+        "name": "智能双创",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "588520",
+        "name": "科创增",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "588533",
+        "name": "AIBOCI",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "588534",
+        "name": "认购款",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "588550",
+        "name": "科创增指",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "588660",
+        "name": "双创五零",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "588670",
+        "name": "科综增强",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "588680",
+        "name": "科100增",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "588690",
+        "name": "科综指增",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "588700",
+        "name": "科创生物",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "588710",
+        "name": "科半导体",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "588720",
+        "name": "中银科创",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "588730",
+        "name": "科创AI",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "588750",
+        "name": "科创芯50",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "588760",
+        "name": "AI科创",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "588770",
+        "name": "信息科创",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "588780",
+        "name": "芯片设计",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "588790",
+        "name": "科创智能",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "588800",
+        "name": "科创100C",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "588810",
+        "name": "科创板芯",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "588820",
+        "name": "科创200E",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "588830",
+        "name": "科创新能",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "588840",
+        "name": "50科创",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "588850",
+        "name": "科创机械",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "588860",
+        "name": "科创医药",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "588870",
+        "name": "科创50指",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "588880",
+        "name": "科创指数",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "588890",
+        "name": "科创芯",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "588900",
+        "name": "科创100S",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "588910",
+        "name": "科创价值",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "588920",
+        "name": "KC芯片",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "588930",
+        "name": "科创板AI",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "588940",
+        "name": "科创富国",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "588950",
+        "name": "景顺科创",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "588960",
+        "name": "新能科创",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "588980",
+        "name": "科创广发",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "588990",
+        "name": "科芯片",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "589000",
+        "name": "科创综指",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "589010",
+        "name": "科创AI指",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "589020",
+        "name": "KC半导体",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "589030",
+        "name": "科芯设计",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "589050",
+        "name": "科创E",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "589060",
+        "name": "科综东财",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "589070",
+        "name": "科芯TH",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "589080",
+        "name": "科创综E",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "589090",
+        "name": "KCAI",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "589100",
+        "name": "国泰芯片",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "589110",
+        "name": "科AI国泰",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "589120",
+        "name": "创新药基",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "589130",
+        "name": "科创芯易",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "589150",
+        "name": "科创平安",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "589160",
+        "name": "科芯片GF",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "589170",
+        "name": "芯设计KC",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "589180",
+        "name": "科创材基",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "589190",
+        "name": "科创芯基",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "589200",
+        "name": "科200E",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "589210",
+        "name": "芯设计GF",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "589220",
+        "name": "科200GT",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "589230",
+        "name": "AI科创CS",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "589250",
+        "name": "芯设计PY",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "589260",
+        "name": "科创芯设",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "589270",
+        "name": "科创100Q",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "589280",
+        "name": "科综增指",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "589290",
+        "name": "芯片主题",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "589300",
+        "name": "科综嘉实",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "589310",
+        "name": "科创人工",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "589320",
+        "name": "科200JS",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "589330",
+        "name": "科200DC",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "589350",
+        "name": "科芯片指",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "589360",
+        "name": "科创50GT",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "589380",
+        "name": "AI科创指",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "589413",
+        "name": "科创AIJS",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "589414",
+        "name": "认购款",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "589500",
+        "name": "科综工银",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "589520",
+        "name": "AI科创板",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "589550",
+        "name": "KC价值",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "589560",
+        "name": "科创AITF",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "589580",
+        "name": "科综价格",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "589600",
+        "name": "富国科综",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "589630",
+        "name": "科综国泰",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "589660",
+        "name": "综指科创",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "589680",
+        "name": "科创综Z",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "589700",
+        "name": "成长科创",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "589720",
+        "name": "科创新药",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "589770",
+        "name": "科创全指",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "589780",
+        "name": "科200FG",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "589800",
+        "name": "科创综合",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "589820",
+        "name": "科200F",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "589850",
+        "name": "科创东财",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "589860",
+        "name": "天弘科综",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "589880",
+        "name": "科创综",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "589890",
+        "name": "景顺科综",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "589900",
+        "name": "博时科综",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "589950",
+        "name": "科100FG",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "589960",
+        "name": "科创新源",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "589980",
+        "name": "科基100",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "589990",
+        "name": "科创板综",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "508030",
+        "name": "中核新能",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "508059",
+        "name": "三峡REIT",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "508605",
+        "name": "保利商业",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "508606",
+        "name": "凯德商业",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "508607",
+        "name": "陆家嘴R",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "508609",
+        "name": "锦江REIT",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "512420",
+        "name": "机械华安",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "512830",
+        "name": "战略新产",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "515040",
+        "name": "工业金属",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "515840",
+        "name": "食品南方",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "516170",
+        "name": "食品行业",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "516440",
+        "name": "南方机械",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "517980",
+        "name": "银行AH",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "520740",
+        "name": "互联香港",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "520750",
+        "name": "HK信息",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "526060",
+        "name": "港股技术",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "560730",
+        "name": "红利GTHT",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "561020",
+        "name": "食品招商",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "561250",
+        "name": "稀金属PH",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "561390",
+        "name": "稀金属PA",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "561400",
+        "name": "鑫元养殖",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "561410",
+        "name": "光伏工银",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "561450",
+        "name": "华泰红利",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "561470",
+        "name": "畜牧TH",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "561490",
+        "name": "红利财通",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "561620",
+        "name": "华泰化工",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "561630",
+        "name": "华泰质量",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "561810",
+        "name": "华泰医疗",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "588530",
+        "name": "AIBOCI",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "589390",
+        "name": "芯设计",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "589400",
+        "name": "芯设计FG",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "589410",
+        "name": "科创AIJS",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      },
+      {
+        "code": "589420",
+        "name": "芯设计MW",
+        "cat": "ETF",
+        "exchange": "上海交易所"
+      }
+    ],
+    "exchange": "sh",
+    "total": 1325
+  }
+}

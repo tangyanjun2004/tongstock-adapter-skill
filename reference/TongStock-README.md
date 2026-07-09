@@ -1,0 +1,721 @@
+# TongStock 通达信股票数据查询工具
+
+基于 Go 语言实现的 TDX (通达信) 行情数据客户端，支持 CLI 和 HTTP API 两种方式获取股票数据。
+
+## 功能特性
+
+- **实时行情** - 五档买卖盘、昨收价、内外盘、成交量/额
+- **K线数据** - 支持 1分钟/5分钟/15分钟/30分钟/60分钟/日/周/月/季/年 K线
+- **指数K线** - 指数专用K线，包含上涨/下跌家数
+- **分时数据** - 当日及历史分时走势数据
+- **分笔成交** - 当日及历史分笔成交数据
+- **除权除息** - 分红、送股、配股、股本变动等历史记录
+- **财务数据** - 总股本、流通股、净资产、净利润等核心财务指标
+- **公司信息** - F10资料（最新提示、公司概况、财务分析等）
+- **板块分类** - 行业、概念、地域、风格等板块分类数据
+- **集合竞价** - 开盘前竞价阶段的匹配量、未匹配量等数据
+- **证券数量** - 查询各交易所证券总数
+- **股票代码** - 获取沪深北交易所所有股票代码，支持分类过滤
+- **技术指标** - MACD/KDJ/MA(5/10/20/60/120)/BOLL/RSI(6/12/24)/量比，支持参数化计算
+- **信号检测** - 金叉/死叉/超买/超卖/突破，自动检测并标记
+- **批量筛选** - 按板块或代码列表批量筛选信号，支持并发
+- **双模式** - CLI 命令行工具 + HTTP REST API
+- **数据缓存** - 股票代码和板块数据 24 小时缓存
+
+## 安装
+
+### 方法一：源码方式（需要 Go 1.24+ 和 pnpm）
+
+#### linux上安装
+```bash
+# 克隆项目
+git clone https://github.com/sjzsdu/tongstock.git
+cd tongstock
+
+# 一键安装（需要 Go 1.24+ 和 pnpm）
+bash setup.sh
+
+# 或手动构建
+pnpm install
+make server
+make cli
+```
+#### windows上安装
+##### 步骤一:官方安装包
+
+1. **下载Go安装包**
+   - 访问官网：https://golang.org/dl/
+   - 或国内镜像：https://golang.google.cn/dl/
+   - 选择最新版本的Windows安装包（如：go1.21.x.windows-amd64.msi）
+
+2. **运行安装程序**
+   - 双击下载的.msi文件
+   - 按照向导完成安装
+   - 默认安装路径：`C:\Program Files\Go`
+
+3. **验证安装**
+   打开新的PowerShell窗口，运行：
+   ```powershell
+   go version
+   ```
+   应该显示类似：`go version go1.21.x windows/amd64`
+
+##### 步骤二:使用源码编译并安装本项目
+```bash
+# 克隆项目
+git clone https://github.com/sjzsdu/tongstock.git
+cd tongstock
+
+# 构建前端项目（需要 pnpm）
+cd web
+pnpm build
+xcopy "dist" "..\pkg\web\dist" /E /I
+
+# 构建后端项目（需要 Go 1.24+ ）
+cd ../
+go build -o "tongstock-cli.exe" ./cmd/cli/main.go
+go build -o "tongstock-server.exe" ./cmd/server/main.go
+
+# 把exe放到用户目录下
+copy tongstock-cli.exe %USERPROFILE%\.tongstock\
+copy tongstock-server.exe %USERPROFILE%\.tongstock\
+```
+
+##### 步骤二:直接使用Release页面的编译好的exe
+1. 如果你不想折腾源码，可以直接到Release页面下载编辑好的zip包，里面含有`tongstockcli.exe`和`tongstockserver.exe`两个文件。
+2. 把这两个文件放到`%USERPROFILE%\.tongstock\`下，可以使用以下命令运行
+```bash
+cd %USERPROFILE%\.tongstock\
+./tongstockserver.exe
+```
+3. 此时会自动产生`config.yaml`和`indicator.yaml`文件。
+4. 建议将`config.yaml`里面的`cache`类型设置为`file`，同时把`dir`和`dsn`设置为绝对路径（可以为了防止错误）。
+5. 如果想要把`tongstockserver.exe`做成一个windows服务，开机就可以启动，可以新建一个`serverstart.bat`文件，内容为
+```bash
+set GIN_MODE=release
+tongstockserver.exe
+```
+6. 使用nssm创建一个windows服务（nssm可以在windows应用商店下载），使用以下命令创建服务，并填写配置信息。如何配置自行搜索吧。
+```bash
+nssm install TDXStock
+```
+
+### 方法二：Docker 方式（推荐，无需安装依赖）
+
+```bash
+# 克隆项目
+git clone https://github.com/sjzsdu/tongstock.git
+cd tongstock
+
+# 使用 Docker Compose 构建并启动
+docker-compose up -d
+
+# 查看服务状态
+docker-compose ps
+
+# 查看日志
+docker-compose logs -f
+
+# 停止服务
+docker-compose down
+```
+
+**访问地址：** http://localhost:8080
+
+## Skill 使用（推荐）
+
+本项目已发布为 Skills，可通过以下命令直接安装使用：
+
+```bash
+npx skills add sjzsdu/tongstock
+```
+
+安装后即可通过 Codebuff 与 AI 对话的方式使用 TongStock 的所有功能：
+- 查询股票行情、K线、分时、财务等数据
+- 技术指标分析与信号检测
+- 批量筛选股票信号
+- 板块分类与成分股查询
+- 股票代码批量操作
+
+**提示**：首次使用需确保 TongStock 服务已启动（`./tongstock-server`），默认服务地址 `http://localhost:8080`
+
+## Web UI
+
+启动 server 后访问 `http://localhost:8080` 即可使用 Web 界面。
+
+### 功能页面
+
+| 页面 | 路径 | 功能 |
+|------|------|------|
+| 市场总览 | `/` | 主要指数行情 + 快速分析入口 |
+| 指标分析 | `/stock` | 单股 MACD/KDJ/MA/BOLL 图表 + 信号标记 |
+| 信号筛选 | `/screen` | 批量筛选金叉/死叉/超买/超卖 |
+
+### 开发模式
+
+```bash
+cd web
+npm install
+npm run dev        # 启动开发服务器，默认代理到 localhost:8080
+```
+
+## CLI 使用方法
+
+### 查询行情
+
+```bash
+./tongstock-cli quote 000001
+```
+
+输出示例：
+```
+000001 平安银行
+  最新价: 12.350
+  开盘: 12.200 最高: 12.400 最低: 12.150
+  成交量: 1234.56 手
+  成交额: 15234.56 万
+```
+
+### 获取股票代码列表
+
+```bash
+# 默认列出深圳市场所有证券
+./tongstock-cli codes list
+
+# 上海市场
+./tongstock-cli codes list -e sh
+
+# 北京市场
+./tongstock-cli codes list -e bj
+
+# 按分类过滤 - 只显示股票
+./tongstock-cli codes list -e sz -c stock
+
+# 按分类过滤 - 只显示ETF
+./tongstock-cli codes list -e sz -c etf
+
+# 查看各分类统计信息
+./tongstock-cli codes stats
+
+# 查看所有交易所统计
+./tongstock-cli codes stats --all
+```
+
+**支持的分类：**
+- `all` - 全部
+- `stock` - 股票
+- `gem` - 创业板
+- `fund` - 基金
+- `etf` - ETF
+- `bond` - 债券
+- `index` - 指数
+
+### 查询K线数据
+
+```bash
+# 日K
+./tongstock-cli kline --code 000001 --type day
+
+# 周K
+./tongstock-cli kline --code 000001 --type week
+
+# 月K
+./tongstock-cli kline --code 000001 --type month
+
+# 1分钟K
+./tongstock-cli kline --code 000001 --type 1m
+
+# 5分钟K
+./tongstock-cli kline --code 000001 --type 5m
+
+# 季K
+./tongstock-cli kline --code 000001 --type quarter
+
+# 年K
+./tongstock-cli kline --code 000001 --type year
+
+# 获取全部历史K线
+./tongstock-cli kline --code 000001 --type day --all
+```
+
+### 查询分时数据
+
+```bash
+# 查询当日分时数据
+./tongstock-cli minute 000001
+
+# 查询历史分时数据 (需要指定日期)
+./tongstock-cli minute 000001 --history --date 20250314
+```
+
+### 查询证券数量
+
+```bash
+# 深圳市场 (默认)
+./tongstock-cli count
+
+# 上海市场
+./tongstock-cli count --exchange sh
+
+# 北京市场
+./tongstock-cli count --exchange bj
+```
+
+### 查询集合竞价
+
+```bash
+# 查询集合竞价数据
+./tongstock-cli auction 000001
+```
+
+### 查询分笔成交
+
+```bash
+# 查询当日分笔成交
+./tongstock-cli trade 000001
+
+# 查询历史分笔成交 (需要指定日期)
+./tongstock-cli trade 000001 --history --date 20240315
+```
+
+### 查询除权除息
+
+```bash
+./tongstock-cli xdxr 000001
+```
+
+### 查询财务数据
+
+```bash
+./tongstock-cli finance 000001
+```
+
+### 查询指数K线
+
+```bash
+# 上证指数日K
+./tongstock-cli index --code 999999 --type day
+
+# 沪深300 5分钟K
+./tongstock-cli index --code 399300 --type 5m
+```
+
+### 查询公司信息(F10)
+
+```bash
+# 查询公司信息目录
+./tongstock-cli company 000001
+
+# 查询公司信息具体内容
+./tongstock-cli company-content 000001
+
+# 通过块名称查询特定内容
+./tongstock-cli company-content 000001 --block "公司概况"
+
+# 指定起始位置和长度
+./tongstock-cli company-content 000001 --start 30744 --length 9560
+```
+
+### 查询板块分类
+
+```bash
+# 列出所有板块文件
+./tongstock-cli block files
+
+# 列出指数板块
+./tongstock-cli block list -f block_zs.dat
+
+# 按Type过滤（2=标准板块）
+./tongstock-cli block list -f block.dat -t 2
+
+# 按成分股数量排序
+./tongstock-cli block list -f block_fg.dat -s
+
+# 显示板块成分股
+./tongstock-cli block show "沪深300" -f block_zs.dat
+
+# 模糊搜索板块
+./tongstock-cli block show "银行" -f block_fg.dat
+
+# 按股票代码查询所属板块
+./tongstock-cli block show --code 600519
+```
+
+**板块文件：**
+| 文件 | 名称 | 说明 |
+|------|------|------|
+| `block.dat` | 综合板块 | 综合分类 |
+| `block_zs.dat` | 指数板块 | 主要指数成分股 |
+| `block_fg.dat` | 行业板块 | 行业分类 |
+| `block_gn.dat` | 概念板块 | 概念主题 |
+
+### 技术指标分析
+
+```bash
+# 单股指标分析（默认参数，表格输出）
+./tongstock-cli indicator --code 000001 --type day
+
+# JSON格式输出（默认返回最新一天）
+./tongstock-cli indicator --code 000001 --type day --json
+
+# JSON格式输出，返回最近5天数据
+./tongstock-cli indicator --code 000001 --type day --json --days 5
+
+# 获取全部历史K线计算指标
+./tongstock-cli indicator --code 000001 --type day --all
+
+# 指定K线数量
+./tongstock-cli indicator --code 000001 --type day --count 500
+
+# 使用自定义参数配置文件
+./tongstock-cli indicator --code 000001 --type day --config configs/params.yaml
+```
+
+**输出包含：**
+- 最近 20 天 K 线 + MA(5/10/20/60/120) + MACD(DIF/DEA/HIST) + KDJ(K/D/J) + BOLL(UPPER/MID/LOWER) + RSI(6/12/24) + 量比
+- 最新信号（金叉/死叉/超买/超卖/多头排列/空头排列等）
+
+**JSON 输出格式（单日）：**
+```json
+{
+  "code": "000001",
+  "name": "平安银行",
+  "days": 1,
+  "count": 1,
+  "history": [
+    {
+    "timestamp": "2026-03-29",
+    "kline": { "open":12.58, "high": 13.21, "low":11.28, "close": 12.58, "volume":125000 , "amount":98000 ,"change": 0.45, "change_pct": 3.71 },
+    "ma": { "ma5": 12.32, "ma10": 12.18, "ma20": 11.95, "ma60": 11.50, "ma120": 11.20, "trend": "bullish" },
+    "macd": { "dif": 0.35, "dea": 0.22, "hist": 0.26, "signal": "golden_cross" },
+    "kdj": { "k": 72.5, "d": 68.2, "j": 81.1, "signal": "overbought" },
+    "rsi": { "rsi6": 65.2, "rsi12": 62.8, "rsi24": 58.4, "signal": "neutral" },
+    "boll": { "upper": 13.20, "middle": 12.50, "lower": 11.80, "position": 0.65, "signal": "normal" },
+    "volume": { "current": 1250000, "avg5": 980000, "ratio": 1.28, "signal": "active" },
+    "signals": ["golden_cross", "overbought", "多头排列"]
+    }
+  ],
+  "summary": { "trend": "上升趋势", "signal": "持有", "strength": 72 }
+}
+```
+
+**JSON 输出格式（多日，--days > 1）：**
+```json
+{
+  "code": "000001",
+  "name": "平安银行",
+  "days": 5,
+  "count": 5,
+  "history": [
+    { "timestamp": "2026-03-25", "kline": {...}, "ma": {...}, ... },
+    { "timestamp": "2026-03-26", "kline": {...}, "ma": {...}, ... },
+    { "timestamp": "2026-03-27", "kline": {...}, "ma": {...}, ... },
+    { "timestamp": "2026-03-28", "kline": {...}, "ma": {...}, ... },
+    { "timestamp": "2026-03-29", "kline": {...}, "ma": {...}, ... }
+  ],
+  "summary": { "trend": "上升趋势", "signal": "持有", "strength": 72 }
+}
+```
+
+### 批量信号筛选
+
+```bash
+# 指定股票列表筛选
+./tongstock-cli screen --codes "000001,600519,000858" --type day --signal golden_cross  --startday=20260110  --endday=20260120
+
+# 从文件读取股票代码（每行一个）
+./tongstock-cli screen --file codes.txt --type day --signal oversold  --startday=20260220 
+
+# 设置并发池大小（默认10）
+./tongstock-cli screen --codes "000001,600519" --pool 5
+
+# 可用信号类型: golden_cross, death_cross, overbought, oversold
+
+# startday和endday可以指定日期，endday未指定，默认是今日。startday未指定，则按照type，取该类型的第一天。如果是分钟级和日，那么startDay就是endday所在的这一天。如果是week，那么就是endday所在的周的星期一，如果是月，那就是endday所在月的第一天。对于季度和年依次类推。
+```
+
+## HTTP API 使用方法
+
+### 启动服务
+
+```bash
+./tongstock-server
+```
+
+服务默认监听 `http://localhost:8080`
+
+### API 接口
+
+| 接口 | 方法 | 参数 | 说明 |
+|------|------|------|------|
+| `/health` | GET | - | 健康检查 |
+| `/api/quote` | GET | `code` | 实时行情 |
+| `/api/codes` | GET | `exchange` | 股票代码(传统) |
+| `/api/codes/list` | GET | `exchange`, `category` | 股票代码列表(支持过滤) |
+| `/api/codes/stats` | GET | `exchange`, `all` | 代码统计 |
+| `/api/kline` | GET | `code`, `type`, `start`, `count` | K线数据 |
+| `/api/count` | GET | `exchange` | 证券数量 |
+| `/api/auction` | GET | `code` | 集合竞价数据 |
+| `/api/minute` | GET | `code`, `date`, `history` | 分时数据（当日/历史） |
+| `/api/trade` | GET | `code`, `start`, `count`, `date`, `history` | 分笔成交数据 |
+| `/api/xdxr` | GET | `code` | 除权除息信息 |
+| `/api/finance` | GET | `code` | 财务数据 |
+| `/api/index` | GET | `code`, `type` | 指数K线 |
+| `/api/company` | GET | `code` | 公司信息目录(F10) |
+| `/api/company/content` | GET | `code`, `block` | 公司信息内容, block使用api/company中返回块 |
+| `/api/block` | GET | `file` | 板块分类(传统) |
+| `/api/block/files` | GET | - | 板块文件列表 |
+| `/api/block/list` | GET | `file`, `type`, `sort` | 结构化板块列表 |
+| `/api/block/show` | GET | `name`, `code`, `file` | 板块成分股/按股票查板块 |
+| `/api/indicator` | GET | `code`, `type`, `days` | 技术指标（MACD/KDJ/MA/BOLL/RSI/量比 + 信号），days参数可限制返回的K线数量，不建议使用 |
+| `/api/indicator-filter` | GET | `code`, `type`, `days` | 技术指标（MACD/KDJ/MA/BOLL/RSI/量比 + 信号），返回跟cli一样的格式，days参数可限制所有返回的技术指标，便于AI使用 |
+| `/api/screen` | GET | `codes`, `type`, `signal`, `startday`, `endday`  | 从开始日期到结束日期之间批量信号筛选，如果传startday, endday将按照type自动推算开始和结束时间|
+
+### 示例
+
+```bash
+# 查询行情
+curl "http://localhost:8080/api/quote?code=000001"
+
+# 股票代码列表（带分类）
+curl "http://localhost:8080/api/codes/list?exchange=sz&category=stock"
+curl "http://localhost:8080/api/codes/list?exchange=sz&category=etf"
+
+# 股票代码统计
+curl "http://localhost:8080/api/codes/stats?exchange=sz"
+curl "http://localhost:8080/api/codes/stats?all=true"
+
+# 查询K线
+curl "http://localhost:8080/api/kline?code=000001&type=day"
+
+# 查询当日分时数据
+curl "http://localhost:8080/api/minute?code=000001"
+
+# 查询历史分时数据
+curl "http://localhost:8080/api/minute?code=000001&history=true&date=20250314"
+
+# 查询证券数量
+curl "http://localhost:8080/api/count?exchange=sh"
+
+# 查询集合竞价
+curl "http://localhost:8080/api/auction?code=000001"
+
+# 查询分笔成交
+curl "http://localhost:8080/api/trade?code=000001"
+
+# 查询历史分笔成交
+curl "http://localhost:8080/api/trade?code=000001&history=true&date=20240315"
+
+# 查询除权除息
+curl "http://localhost:8080/api/xdxr?code=000001"
+
+# 查询财务数据
+curl "http://localhost:8080/api/finance?code=000001"
+
+# 查询指数K线
+curl "http://localhost:8080/api/index?code=999999&type=day"
+
+# 查询公司信息目录
+curl "http://localhost:8080/api/company?code=000001"
+
+# 查询公司信息内容
+curl "http://localhost:8080/api/company/content?code=000001&filename=000001.txt"
+
+# 板块文件列表
+curl "http://localhost:8080/api/block/files"
+
+# 板块列表（过滤+排序）
+curl "http://localhost:8080/api/block/list?file=block_zs.dat&type=2&sort=true"
+
+# 板块成分股
+curl "http://localhost:8080/api/block/show?name=沪深300&file=block_zs.dat"
+
+# 按股票代码查询所属板块
+curl "http://localhost:8080/api/block/show?code=600519"
+```
+
+### 缓存说明
+
+股票代码和板块数据 API 使用 SQLite 进行缓存，缓存有效期为 24 小时：
+- `codes.db` - 股票代码缓存
+- `blocks.db` - 板块数据缓存
+
+## 配置
+
+### 应用主配置
+
+`~/.tongstock/config.yaml` — 首次运行自动生成，可自行编辑：
+
+```yaml
+server:
+  port: 8080
+
+tdx:
+  # hosts:
+  #   - "124.71.187.122:7709"
+
+cache:
+  backend: sqlite
+  dir: ~/.tongstock/cache
+
+database:
+  driver: sqlite3
+  dsn: ~/.tongstock/cache/tongstock.db
+```
+
+### 指标参数配置
+
+`~/.tongstock/indicator.yaml` — 首次运行 indicator/screen 命令时自动生成，可自行编辑：
+
+```yaml
+defaults:
+  ma: [5, 10, 20, 60]
+  macd:
+    fast: 12
+    slow: 26
+    signal: 9
+  kdj:
+    n: 9
+    m1: 3
+    m2: 3
+  boll:
+    n: 20
+    k: 2.0
+  rsi: [6, 14]
+
+categories:
+  large_cap:
+    ma: [5, 10, 20, 60, 120]
+  small_cap:
+    ma: [5, 10, 20]
+    macd:
+      fast: 8
+      slow: 17
+
+overrides:
+  "000001":
+    kdj:
+      n: 5
+```
+
+**参数覆盖优先级**：per-stock override > category override > defaults
+
+### 用户目录结构
+
+```
+~/.tongstock/
+├── config.yaml          # 应用主配置
+├── indicator.yaml       # 指标参数配置
+├── cache/
+│   └── tongstock.db     # SQLite 缓存数据库
+```
+
+如需自定义服务器地址，可在 `config.yaml` 中设置 `tdx.hosts`。如需自定义指标参数，编辑 `indicator.yaml`。如需临时指定配置文件，可使用 `--config` 参数覆盖。
+
+## K线类型参数说明
+
+| type 参数 | 说明 |
+|-----------|------|
+| `1m`, `minute` | 1分钟K |
+| `5m` | 5分钟K |
+| `15m` | 15分钟K |
+| `30m` | 30分钟K |
+| `60m` | 60分钟K |
+| `day` | 日K |
+| `week` | 周K |
+| `month` | 月K |
+| `quarter` | 季K |
+| `year` | 年K |
+
+## 项目结构
+
+```
+tongstock/
+├── cmd/
+│   ├── cli/              # CLI 工具
+│   │   └── main.go       # 命令行入口
+│   └── server/           # HTTP API 服务
+│       └── main.go       # 服务入口（嵌入 Web UI）
+├── web/                  # React + TypeScript Web UI
+│   ├── src/
+│   │   ├── api/          # API 客户端
+│   │   ├── components/   # 组件（图表等）
+│   │   ├── pages/        # 页面（Dashboard/Stock/Screen）
+│   │   └── types/        # TypeScript 类型
+│   ├── package.json
+│   └── vite.config.ts
+├── pkg/
+│   ├── tdx/              # TDX 协议实现
+│   │   ├── client.go     # 客户端
+│   │   ├── hosts.go      # 服务器地址
+│   │   ├── codes.go      # 股票代码
+│   │   ├── pull.go       # 行情拉取 + KlineStore
+│   │   ├── service.go    # 业务逻辑层
+│   │   ├── workday.go    # 交易日判断
+│   │   ├── bj_codes.go   # 北京交易所代码
+│   │   └── protocol/     # 协议解析
+│   │       ├── quote.go   # 行情解析(含五档盘口)
+│   │       ├── kline.go   # K线解析
+│   │       ├── index.go   # 指数K线解析
+│   │       ├── minute.go  # 分时解析
+│   │       ├── trade.go   # 分笔解析
+│   │       ├── xdxr.go    # 除权除息解析
+│   │       ├── finance.go # 财务数据解析
+│   │       ├── company.go # 公司信息解析
+│   │       ├── block.go   # 板块信息解析
+│   │       ├── code.go    # 代码解析
+│   │       └── ...
+│   ├── ta/               # 技术指标计算（无状态）
+│   │   ├── types.go      # 核心类型（KlineInput, IndicatorResult）
+│   │   ├── ma.go         # SMA, EMA
+│   │   ├── macd.go       # MACD
+│   │   ├── kdj.go        # KDJ
+│   │   ├── boll.go       # BOLL
+│   │   ├── rsi.go        # RSI
+│   │   └── indicator.go  # 统一计算入口（并发）
+│   ├── signal/           # 信号检测
+│   │   ├── signal.go     # Signal 类型定义
+│   │   ├── detector.go   # 统一检测入口（并发）
+│   │   ├── cross.go      # 金叉/死叉检测
+│   │   ├── macd.go       # MACD 信号
+│   │   ├── kdj.go        # KDJ 信号
+│   │   ├── boll.go       # BOLL 信号
+│   │   ├── ma.go         # MA 信号
+│   │   └── rsi.go        # RSI 信号
+│   ├── param/            # 参数管理
+│   │   ├── types.go      # CategoryParams, ParamConfig
+│   │   ├── params.go     # Init, Resolve（三层参数覆盖）
+│   │   └── category.go   # 按代码判断市值分类
+│   └── utils/            # 工具函数
+├── configs/
+│   └── params.yaml       # 指标参数配置（含大盘/小盘分类）
+├── Makefile              # 构建脚本
+└── README.md
+```
+
+## 技术栈
+
+- **Go 1.24+** - 后端开发语言
+- **spf13/cobra** - CLI 框架
+- **Gin** - HTTP 框架
+- **TDX 协议** - 通达信私有二进制协议
+- **gopkg.in/yaml.v3** - 参数配置解析
+- **React 19** - Web UI 前端框架
+- **TypeScript** - 前端类型安全
+- **Vite** - 前端构建工具
+- **Tailwind CSS** - 样式框架
+- **Recharts** - 图表组件库
+
+## 数据来源
+
+数据来源于通达信官方行情服务器（端口 7709），仅供学习交流使用，请勿用于商业用途。
+
+## 许可证
+
+MIT License
+
+## 注意事项
+
+1. 本项目仅供学习研究使用
+2. 请遵守通达信的服务条款
+3. 行情数据可能有延迟，不建议用于实盘交易

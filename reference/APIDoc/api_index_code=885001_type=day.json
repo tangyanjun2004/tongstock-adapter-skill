@@ -1,0 +1,9 @@
+{
+  "timestamp": "2026-07-08T17:34:42.037017",
+  "endpoint": "/api/index",
+  "params": {
+    "code": "885001",
+    "type": "day"
+  },
+  "response": []
+}

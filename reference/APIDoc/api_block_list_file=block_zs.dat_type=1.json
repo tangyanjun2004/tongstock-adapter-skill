@@ -1,0 +1,13 @@
+{
+  "timestamp": "2026-07-08T17:34:41.049780",
+  "endpoint": "/api/block/list",
+  "params": {
+    "file": "block_zs.dat",
+    "type": "1"
+  },
+  "response": {
+    "blocks": null,
+    "file": "block_zs.dat",
+    "total": 0
+  }
+}

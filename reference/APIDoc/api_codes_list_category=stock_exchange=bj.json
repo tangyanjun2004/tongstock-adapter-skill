@@ -1,0 +1,14 @@
+{
+  "timestamp": "2026-07-08T17:34:33.002172",
+  "endpoint": "/api/codes/list",
+  "params": {
+    "exchange": "bj",
+    "category": "stock"
+  },
+  "response": {
+    "category": "stock",
+    "codes": [],
+    "exchange": "bj",
+    "total": 0
+  }
+}

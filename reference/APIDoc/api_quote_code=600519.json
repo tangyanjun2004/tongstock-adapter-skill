@@ -1,0 +1,52 @@
+{
+  "timestamp": "2026-07-08T17:34:32.488542",
+  "endpoint": "/api/quote",
+  "params": {
+    "code": "600519"
+  },
+  "response": {
+    "Code": "600519",
+    "Name": "",
+    "Open": 1188.77,
+    "High": 1200.98,
+    "Low": 1177,
+    "Price": 1199.3,
+    "LastClose": 1188.8,
+    "Volume": 25776,
+    "Amount": 307193.344,
+    "SVol": 11660,
+    "BVol": 14116,
+    "BidAsk": [
+      {
+        "BidPrice": 1199,
+        "AskPrice": 1199.3,
+        "BidVolume": 2,
+        "AskVolume": 37
+      },
+      {
+        "BidPrice": 1198.94,
+        "AskPrice": 1199.33,
+        "BidVolume": 1,
+        "AskVolume": 1
+      },
+      {
+        "BidPrice": 1198.23,
+        "AskPrice": 1199.4,
+        "BidVolume": 3,
+        "AskVolume": 1
+      },
+      {
+        "BidPrice": 1198,
+        "AskPrice": 1199.42,
+        "BidVolume": 4,
+        "AskVolume": 1
+      },
+      {
+        "BidPrice": 1197.49,
+        "AskPrice": 1199.44,
+        "BidVolume": 1,
+        "AskVolume": 1
+      }
+    ]
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "timestamp": "2026-07-08T17:34:33.026756",
+  "endpoint": "/api/codes/stats",
+  "params": {
+    "exchange": "sz"
+  },
+  "response": {
+    "stats": [
+      {
+        "exchange": "sz",
+        "name": "深圳交易所",
+        "total": 23741,
+        "categories": {
+          "ETF": 5539,
+          "债券": 38,
+          "其他": 478,
+          "创业板": 937,
+          "基金": 14899,
+          "指数": 354,
+          "深市主板": 1496
+        }
+      }
+    ]
+  }
+}

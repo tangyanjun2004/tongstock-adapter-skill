@@ -1,0 +1,12 @@
+{
+  "timestamp": "2026-07-08T17:34:41.292991",
+  "endpoint": "/api/block/show",
+  "params": {
+    "name": "云计算",
+    "file": "block_gn.dat"
+  },
+  "response": {
+    "error": "404 Client Error: Not Found for url: http://localhost:8991/api/block/show?name=%E4%BA%91%E8%AE%A1%E7%AE%97&file=block_gn.dat",
+    "timestamp": "2026-07-08T17:34:41.292971"
+  }
+}

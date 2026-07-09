@@ -1,0 +1,27 @@
+{
+  "timestamp": "2026-07-08T17:34:33.052568",
+  "endpoint": "/api/codes/stats",
+  "params": {
+    "exchange": "sh"
+  },
+  "response": {
+    "stats": [
+      {
+        "exchange": "sh",
+        "name": "上海交易所",
+        "total": 27532,
+        "categories": {
+          "ETF": 1325,
+          "REITs": 44,
+          "债券": 11793,
+          "其他": 501,
+          "北交所股票": 1121,
+          "基金": 10007,
+          "沪市A股": 1699,
+          "深市主板": 432,
+          "科创板": 610
+        }
+      }
+    ]
+  }
+}

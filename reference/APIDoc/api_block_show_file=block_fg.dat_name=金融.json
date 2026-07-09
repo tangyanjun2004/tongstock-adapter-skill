@@ -1,0 +1,12 @@
+{
+  "timestamp": "2026-07-08T17:34:41.309753",
+  "endpoint": "/api/block/show",
+  "params": {
+    "name": "金融",
+    "file": "block_fg.dat"
+  },
+  "response": {
+    "error": "404 Client Error: Not Found for url: http://localhost:8991/api/block/show?name=%E9%87%91%E8%9E%8D&file=block_fg.dat",
+    "timestamp": "2026-07-08T17:34:41.309732"
+  }
+}
